@@ -1,0 +1,294 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link href="bootstrap-3.4.1-dist/css/bootstrap.min.css" rel="stylesheet">
+        
+    <style>
+        .container{
+            width: 1240px;
+            height: 3000px;
+        }
+        .c1{
+            height: 360px;
+            width: 1240px;
+            background-image: url(resource/home-banner.jpg);
+            background-size: cover;
+        }
+        .c2{
+            height: 690px;
+            width: 1240px;
+            background-color:rgb(244, 244,244);
+        }
+        .c3{
+            width: 1240px;
+            height: 1250px;
+            background-color:white;
+        }
+        .c4{
+            width: 1240px;
+            height: 105px;
+            background-color:rgb(244, 244,244);
+            text-align: center;
+        }
+        .btn1{
+            position: absolute;
+            left: 883px;
+            top: 270px;
+            width: 154px;
+            height: 45px;
+            border: 2px rgb(66, 138, 243);
+            color: rgb(12, 110, 253);
+        }
+        #btn2{
+            position: absolute;
+            left: 1460px;
+            top: 14px;
+            width: 55px;
+            height: 35px;
+            background-color: transparent;
+            border-style: ridge;
+            color: rgb(248, 249, 250);
+            border-color: rgb(248, 249, 250);
+
+        }
+        #btn3{
+            position: absolute;
+            left: 1390px;
+            top: 14px;
+            width: 55px;
+            height: 35px;
+            background-color: transparent;
+            border-style: ridge;
+            color: rgb(248, 249, 250);
+            border-color: rgb(248, 249, 250);
+        }
+        #btn4{
+            position: absolute;
+            left: 414px;
+            top: 990px;
+            width: 1095px;
+            height: 35px;
+            background-color: transparent;
+            border-style: ridge;
+            color: rgb(108, 117, 125);
+            border-color: rgb(108, 117, 125);
+            font-weight: bold;
+        }
+        #btn5{
+            position: absolute;
+            left: 414px;
+            top: 1682px;
+            width: 1095px;
+            height: 35px;
+            background-color: transparent;
+            border-style: ridge;
+            color: rgb(108, 117, 125);
+            border-color: rgb(108, 117, 125);
+            font-weight: bold;
+        }
+        .font1{
+            position: absolute;
+            left: 600px;
+            top: 110px;
+            color: white;
+            font-size: 55px;
+            border: 2px rgb(66, 138, 243);
+        }
+        .p2{
+            position: absolute;
+            left: 720px;
+            top: 210px;
+            color: white;
+            font-size: 18px;
+            border: 2px rgb(66, 138, 243);
+        }
+        .p3{
+            position: absolute;
+            left: 410px;
+            font-weight: bold;
+            font-size: 42px;
+        }
+        .p4{
+            position: absolute;
+            left: 410px;
+            top:950px;
+            font-size: 18px;
+        }
+        .p5{
+            line-height: 105px;
+            font-size: 16px;
+        }
+        .p6{
+            position: absolute;
+            left: 410px;
+            top:1575px;
+            font-weight: bold;
+            font-size: 42px;
+        }
+        .p7{
+            position: absolute;
+            left: 410px;
+            top:1645px;
+            font-size: 16px;
+        }
+        .p8{
+            position: absolute;
+            left: 410px;
+            top:1785px;
+            font-weight: bold;
+            font-size: 38px;
+        }
+        .p9{
+            position: absolute;
+            left: 480px;
+            top:1883px;
+            font-weight: bold;
+            font-size: 38px;
+        }
+        .p10{
+            position: absolute;
+            left: 485px;
+            top:1938px;
+            font-size: 16px;
+        }
+        .p11{
+            position: absolute;
+            left: 480px;
+            top:2023px;
+            font-weight: bold;
+            font-size: 38px;
+        }
+        .p12{
+            position: absolute;
+            left: 485px;
+            top:2078px;
+            font-size: 16px;
+        }
+        .p13{
+            position: absolute;
+            left: 480px;
+            top:2163px;
+            font-weight: bold;
+            font-size: 38px;
+        }
+        .p14{
+            position: absolute;
+            left: 485px;
+            top:2218px;
+            font-size: 16px;
+        }
+        .img1{
+            position: absolute;
+            left: 410px;
+            top: 14px;
+            border: 2px rgb(66, 138, 243);
+        }
+        .img2{
+            position: absolute;
+            left: 395px;
+            top: 1878px;
+            width: 90px;
+            height: 90px;
+        }
+        .img3{
+            position: absolute;
+            left: 390px;
+            top: 2018px;
+            width: 95px;
+            height: 95px;
+        }
+        .img4{
+            position: absolute;
+            left: 395px;
+            top: 2158px;
+            width: 90px;
+            height: 90px;
+        }
+        .a1{
+            position: absolute;
+            left: 485px;
+            top:1965px;
+            color: rgb(22, 114, 252);
+            font-size: 16px;
+            text-decoration: underline;
+        }
+        .a2{
+            position: absolute;
+            left: 485px;
+            top:2105px;
+            color: rgb(22, 114, 252);
+            font-size: 16px;
+            text-decoration: underline;
+        }
+        .a3{
+            position: absolute;
+            left: 485px;
+            top:2245px;
+            color: rgb(22, 114, 252);
+            font-size: 16px;
+            text-decoration: underline;
+        }
+
+    </style>
+
+
+  </head>
+
+  <body>
+    <div class="container" >
+        <div class="c1">
+            <img class="img1" src="resource/logo-white.svg">
+            <p>
+                <h1 class="font1">云端编程，浏览器里边学边练</h1>
+            </p>
+            <p class="p2">软件定义一切，网络连接时空，学习软件技术，创造未来世界。</p>
+            <button type="button" class="btn1 btn-default btn-lg">马上学习</button>
+            <button id="btn2" type="button" class="btn btn-transparent">注册</button>
+            <button id="btn3" type="button" class="btn btn-default">登录</button>
+        </div>
+        <div class="c2">
+            <img src="resource/img-lab@2x.png" alt="">
+            <p class="p3">高级Web编程实验室</p>
+            <p class="p4">每人拥有自己完全独立的编程实验室，内置所有基础软件及学习素材。打开浏览器，即刻开始编程！</p>
+            <button id="btn4" type="button" class="btn 
+            btn-transparent">了解详情</button>
+        </div>
+        <div class="c3">
+            <img src="resource/img-screens@2x.png" alt="">
+            <p class="p6">双屏学习</p>
+            <p class="p7">双屏学习，小屏视频互动，大屏实际操作，学习无障碍。打开浏览器，即刻开始编程！</p>
+            <button id="btn5" type="button" class="btn 
+            btn-transparent">了解详情</button>
+            <p class="p8">课程特色</p>
+            <hr style="color: gray; width: 1270px;margin: 0; border: 2px;">
+            <img class="img2" src="resource/教学服务.png">
+            <p class="p9">丰富的教学服务</p>
+            <p class="p10">特色教学服务功能，各种配套教学服务，在线学习从未如此轻松</p>
+            <a class="a1"href="https://www.hnust.edu.cn/">马上学习 ></a>
+            <img class="img3" src="resource/学习方式.png">
+            <p class="p11">多元的学习方式</p>
+            <p class="p12">知识提炼、答疑解惑、实时互动、开发有特色的教学服务方式</p>
+            <a class="a2"href="https://www.hnust.edu.cn/">马上学习 ></a>
+            <img class="img4" src="resource/学习体验.png">
+            <p class="p13">高品质的学习体验</p>
+            <p class="p14">多屏合一，随时学习，随时在线，学习记录一目了然，知识充电不再受限 </p>
+            <a class="a3"href="https://www.hnust.edu.cn/">马上学习 ></a>
+        </div>
+        <div class="c4">
+            <p class="p5">©2024 云端科技 Artech All rights reserved</p>
+        </div>
+        
+
+
+    </div>
+
+
+
+
+    <script src="js/jquery-3.4.1.js"></script>
+    <script src="bootstrap-3.4.1-dist/js/bootstrap.min.js"></script>
+  </body>
+</html>
